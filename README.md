@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:25/09/2025
+## Register Number:25015951
+## Name:Shalini I
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -47,22 +47,120 @@ Agriculture, FoodTech & Rural Development
 <li>Innovation and uniqueness of the solution</li></ul>
 
 ## Technical Approach
-<h3>Remove These Lines</h3>
-<ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
-</li>
-<li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li></ul>
+Technologies to Be Used
+
+Frontend: React Native (for cross-platform mobile app)
+
+Backend: Node.js with Express
+
+Database: MongoDB or Firebase
+
+AI Models:
+
+Computer Vision: TensorFlow/PyTorch for pest/disease detection
+
+NLP: GPT-based models fine-tuned for agri queries in regional languages
+
+Weather & Soil APIs: OpenWeatherMap, ISRO/Bhuvan Soil Data
+
+Localization: Google ML Kit for speech-to-text and text-to-speech in Indian languages
+
+Methodology and Process
+
+Farmer Registration
+
+Language selection
+
+Location, crop, and soil data input (manual or via KYC/soil cards)
+
+Dashboard & Advisory Feed
+
+Dynamic crop suggestions
+
+Fertilizer/pesticide dosage alerts
+
+Daily weather forecast
+
+Pest Detection
+
+Farmers upload image
+
+AI identifies issue and provides solution
+
+Voice Q&A
+
+Farmers can ask questions in native language via voice
+
+Bot responds with spoken advice
+
+Market Linkage
+
+Prices for nearby mandis fetched using APIs
+
+Feedback & Analytics
+
+Feedback loop for accuracy rating
+
+Data used for continuous model improvement
+
+(Flowcharts and UI mockups can be developed for the prototype phase.)
 
 ## Feasibility and Viability
-<h3>Remove These Lines</h3>
-<ul><li>Analysis of the feasibility of the idea</li>
-<li>Potential challenges and risks</li>
-<li>Strategies for overcoming these challenges</li></ul>
+Feasibility
 
-## Impact and Benefits
-<h3>Remove These Lines</h3>
-<ul><li>Potential impact on the target audience</li>
-<li>Benefits of the solution (social, economic, environmental, etc.)</li></ul>
+Technically Viable: All technologies proposed are mature and have been used in similar domains.
 
-## Research and References
-<h3>Remove These Lines</h3>
-<ul><li>Details / Links of the reference and research work</li></ul>
+Socially Acceptable: The voice interface and multilingual design ensure inclusivity.
+
+Economically Scalable: With cloud services and open APIs, development and scaling costs remain low.
+
+Potential Challenges
+
+Internet availability in remote areas.
+
+Initial resistance to technology adoption.
+
+Dataset availability for regional crops and pests.
+
+Mitigation Strategies
+
+Offline mode with periodic sync.
+
+Community workshops and digital literacy drives.
+
+Collaboration with agricultural universities and government for datasets.
+
+##Impact and Benefits
+Target Audience Impact
+
+Small and marginal farmers will experience increased yields and reduced input costs.
+
+Government and agri officers will have access to real-time farm-level insights.
+
+NGOs and cooperatives can use the app for training and outreach.
+
+Benefits
+
+Economic: Increased profitability for farmers.
+
+Social: Reduces dependency on unverified sources; promotes self-reliance.
+
+Environmental: Encourages judicious use of fertilizers and pesticides.
+
+Technological: Fosters rural digital inclusion and AgriTech innovation.
+
+##Research and References
+
+NABARD Report (2022) – 86% of Indian farmers are small/marginal.
+
+FAO Studies – ICT-based advisories can improve yields by 20–30%.
+
+ICAR Reports – Impact of precision agriculture on input cost savings.
+
+OpenWeatherMap API – https://openweathermap.org/api
+
+ISRO Bhuvan – https://bhuvan.nrsc.gov.in/
+
+Google ML Kit – https://developers.google.com/ml-kit
+
+Would you like a working prototype outline, UI wireframes, or a detailed implementation plan next?
